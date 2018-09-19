@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * Upcomng Birthday List extension for the phpBB Forum Software package.
 *
@@ -36,6 +37,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 
 	// ACP entries
-	'ALLOW_BIRTHDAYS_AHEAD'		=> 'Number of days to display upcoming birthdays',
-	'ALLOW_BIRTHDAYS_AHEAD_EXPLAIN'	=> 'Displays the upcoming birthdays on the index page. Entering 0 will disable this feature.<br /><em>You must have “Allow birthdays” as well as “Enable birthday listing” set to yes for the list of upcoming birthdays to appear.</em>',
+	'ALLOW_BIRTHDAYS_AHEAD'		=> 'Järgmiste sünnipäevade kuvamise päevade arv',
+	'ALLOW_BIRTHDAYS_AHEAD_EXPLAIN'	=> 'Näitab pealehel eelseisvaid sünnipäevi. Sisestades 0, lülitab selle funktsiooni välja.<br /><em>Sündmuse loendis peab olema märgitud "Sünnipäevade lubamine" ja "Luba sünnipäevade nimekiri".</em>',
 ));
