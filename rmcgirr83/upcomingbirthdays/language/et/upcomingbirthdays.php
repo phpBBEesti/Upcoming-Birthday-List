@@ -1,5 +1,6 @@
 <?php
 /**
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * Upcoming Birthday List extension for the phpBB Forum Software package.
 *
@@ -35,5 +36,5 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'BIRTHDAYS_AHEAD'		=> 'Users with a birthday within the next %d days',
+	'BIRTHDAYS_AHEAD'		=> 'Kasutajate sünnipäevad järgmise %d päeva jooksul',
 ));
